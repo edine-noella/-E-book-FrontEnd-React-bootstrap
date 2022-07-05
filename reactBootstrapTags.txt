@@ -1,0 +1,36 @@
+installing and starting the project
+ - npx create-react-app (library-frontend)projectName
+ - npm install bootstrap react-bootstrap
+ - shortcut to create a react file: rnfes(for react native) && rfce(for react app)
+
+1. div: to contain everything
+2. container: to contain the entire view box
+3. form {
+      - form.Group with attribute controlId (like for name input)
+      - form.Lable
+      - form.Control (inpute area with attributes like placeholder)
+      - form.Text
+      }
+
+4. row{
+     - Col: align elements in one lign
+     }
+
+5. Card: containes elements in a card(contain attribute className for bootstrap sytling)
+    {
+      -Card.Img
+      -Card.Body
+      -Card.Title
+      -Card.Text
+    }
+
+6. Breadcrumb: this acts as navbar list
+    {
+      - Breadcrumb.Item : this acts a link in navbar , can have attributes active
+    }
+
+7. Alert: this acts as a button with attribute Variant ="success
+
+8. Button :this is simple button
+
+9. to router through pages : - npm install react-router-dom 
